@@ -1,0 +1,84 @@
+# Dependencias
+node_modules/
+.npm
+.yarn
+
+# Archivos de ambiente y configuración
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de compilación
+dist/
+build/
+.tsbuildinfo
+.next
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Archivos de caché
+.eslintcache
+.cache
+.parcel-cache
+
+# Archivos de testing
+coverage/
+
+# Archivos del editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Archivos LaTeX temporales
+latex_docs/**/*.aux
+latex_docs/**/*.bbl
+latex_docs/**/*.bcf
+latex_docs/**/*.blg
+latex_docs/**/*.fdb_latexmk
+latex_docs/**/*.fls
+latex_docs/**/*.log
+latex_docs/**/*.out
+latex_docs/**/*.run.xml
+latex_docs/**/*.synctex.gz
+latex_docs/**/*.toc
+latex_docs/**/*.lof
+latex_docs/**/*.lot
+latex_docs/**/_minted*
+latex_docs/**/auto/
+
+# Drizzle
+drizzle/migrations/.snapshot
+
+# TypeScript
+*.tsbuildinfo
+
+# Base de datos local
+*.sqlite
+*.sqlite3
+*.db
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#Environment
+.env
+
+# Cookies y datos de sesión temporal
+cookies.txt
+sessions/
+
+# Archivos temporales de desarrollo
+.temp/
+.tmp/

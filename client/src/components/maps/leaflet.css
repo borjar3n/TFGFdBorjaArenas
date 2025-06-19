@@ -1,0 +1,64 @@
+/* Leaflet CSS */
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: none !important;
+}
+
+.leaflet-tile-loaded {
+  filter: none !important;
+}
+
+.leaflet-control-layers-toggle {
+  width: 36px !important;
+  height: 36px !important;
+  background-size: 20px 20px !important;
+}
+
+.leaflet-control-layers-expanded {
+  font-size: 14px !important;
+  background-color: white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2) !important;
+  padding: 8px 10px !important;
+}
+
+.leaflet-control-layers-separator {
+  height: 1px !important;
+  margin: 8px 0 !important;
+  background-color: #ddd !important;
+}
+
+.leaflet-control-layers label {
+  margin-bottom: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.leaflet-control-layers input {
+  margin-right: 6px !important;
+}
+
+/* Fix para problemas de renderizado en modo oscuro */
+.leaflet-tile {
+  filter: none !important;
+}
+
+/* Fix para problemas de dimensiones */
+.leaflet-pane {
+  z-index: 1 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1000 !important;
+}
